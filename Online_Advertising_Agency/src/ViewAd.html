@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Online Advertising Agency</title>
+	<link rel="stylesheet" type="text/css" href="styles/styleN.css">
+	<script src="js/assignment2Script.js"></script>
+
+</head>
+
+<body bgcolor="#e7ebfd" >
+<img src="Images/logo.png" width="10%" align="left" alt="logo" title="Logo">
+<a href="Register.html">
+<img src="Images/profile.png" width="5%" align="right" alt="profile" title="Profile">
+</a>
+<h1 class="header ">AD Plus Online Advertising Agency</h1>
+
+<hr id="test"/>
+
+<br>
+<ul class="menu">
+	<li class="menu"><a href="Index.html">Home</a></li>
+	<li class="menu"><a href="#">View Ad</a></li>
+	<li class="menu"><a href="Create ad.html">Create Ad</a></li>
+	<li class="menu"><a href="assignment2.html">Publish Ad</a></li>
+	<li class="menu"><a href="signin.php">Sign In</a></li>
+	<li class="menu"><a href="Register.html">Register</a></li>
+	<li class="menu"><a href="payment details.html">Payment Details</a></li>
+	<li class="menu"><a href="Contact Us.html">Contact Us</a></li>
+	<li class="menu"><a href="About us.html">About Us</a></li>
+	<div class="search">
+	 <input type="text" placeholder="Search..">
+	 </div>
+	 <div align="right">
+	 <form method="post" action="Search.php">
+	<button type="submit" name="search"  style="width:5%;text-align:center;margin: 3px;background-color: black;color: white;padding: 12px ;cursor: pointer;">Search</button>
+	</form>
+	</div>
+</ul>
+<br>
+<br>
+
+<center>
+  <h1>View Advertisments</h1><br>
+  
+<div class="layout">
+     <button class="bttn1" type="button" id="btn3" onclick="loadDetails('btn3')">AD 1</button>
+	 <button class="bttn1" type="button" id="btn4" onclick="loadDetails('btn4')">AD 2</button>
+	 <button class="bttn1" type="button" id="btn5" onclick="loadDetails('btn5')">AD 3</button> 
+	 <button class="bttn1" type="button" id="btn6" onclick="loadDetails('btn6')">AD 4</button>
+	 <button class="bttn1" type="button" id="btn7" onclick="loadDetails('btn7')">AD 5</button>
+	 <button class="bttn1" type="button" id="btn8" onclick="loadDetails('btn8')">AD 6</button>
+	 <button class="bttn1" type="button" id="btn9" onclick="loadDetails('btn9')">AD 7</button>
+	 <button class="bttn1" type="button" id="btn10" onclick="loadDetails('btn10')">AD 8</button> 
+</div>
+<img id="img1" src="images/food.jpg"width="1000px">
+
+</center>
+<script>
+function loadDetails(btn){
+	if(btn=="btn3"){
+	    document.getElementById("img1").src = "images/food.jpg";
+	}
+	else if(btn=="btn4"){
+		document.getElementById("img1").src = "images/chocolate.jpg";
+	}
+	else if(btn=="btn5"){
+		document.getElementById("img1").src = "images/watch.jpg";
+	}
+	else if(btn=="btn6"){
+		document.getElementById("img1").src = "images/iphone.jpg";
+	}
+	else if(btn=="btn7"){
+		document.getElementById("img1").src = "images/nike.png";
+	}
+	else if(btn=="btn8"){
+		document.getElementById("img1").src = "images/macdo.jpg";
+	}
+	else if(btn=="btn9"){
+		document.getElementById("img1").src = "images/ice cream.jpg";
+	}
+	else if(btn=="btn10"){
+		document.getElementById("img1").src = "images/coffeebo.jpg";
+	}
+		
+}
+</script>
+<img src="Images/payment.png" align="left" width="15%" alt="payment" title="payment image" >
+<button type="button" class="subscribe"><a href="Subscribe.php">Subscribe to Newsletter</button>   	 
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="styles/ad.css">
+	<script src="js/javaScript.js"></script>
+	
+</head>
+
+<body bgcolor="#e7ebfd" >
+<img src="Images/logo.png" width="10%" align="left" alt="logo" title="Logo">
+<a href="#">
+<img src="Images/profile.png" width="5%" align="right" alt="profile" title="Profile">
+</a>
+<h1 class="header " >Online Advertising Agency</h1>
+
+<hr id="test"/>
+<br>
+<ul class="menu">
+	<li class="menu"><a href="Index.html">Home</a></li>
+	<li class="menu"><a href="ViewAd.html">View Ad</a></li>
+	<li class="menu"><a href="Create ad.html">Create Ad</a></li>
+	<li class="menu"><a href="assignment2.html">Publish Ad</a></li>
+	<li class="menu"><a href="signin.php">Sign In</a></li>
+	 <li class="menu"><a href="#">Register</a></li>
+	 <li class="menu"><a href="payment details.html">Payment Details</a></li>
+	<li class="menu"><a href="Contact Us.html">Contact Us</a></li>
+	<li class="menu"><a href="About us.html">About Us</a></li>
+	<div class="search">
+	 <input type="text" placeholder="Search..">
+	 </div>
+	 <div align="right">
+	 <form method="post" action="Search.php">
+	<button type="submit" name="search"  style="width:5%;text-align:center;margin: 3px;background-color: black;color: white;padding: 12px ;cursor: pointer;">Search</button>
+	</form>
+	</div>
+</ul>
+
+<br>
+<br>
+<center>
+<br><br>
+<img src="Images/register1.png" width="10%">
+<form  style="width:60%;background-color:#d1e0e0;border:1px solid blue;padding-left:50px;padding-bottom:20px;padding-right:50px;" action="Register.php" target="_self" method="POST" onsubmit="return checkPasswords()">
+	<div  align="left">
+	<h2>Personal Information</h2>
+	<hr id="test2"/>
+	<label>First Name</label><br>
+	<input type="text" id="fname" name="fname" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" placeholder="Enter your First Name" required><br><br>
+	Last Name<br>
+	<input type="text" id="fname" name="fname2" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" placeholder="Enter your Last Name"><br><br>
+	Gender<br>
+	<input type="radio" id="gender" name="gender" value="Male"checked>Male
+	<input type="radio" id="gender" name="gender" value="Female" >Female<br><br>
+	Choose your DOB<br>
+	<input type="date" id="dob" name="dob" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" required><br><br>
+	<h2>Contact Information</h2>
+	<hr id="test2"/>
+	Mobile Number<br>
+	<input type="text" id="mobile" name="mobile" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" pattern="[0-9]{10}" placeholder="Enter your mobile number" required><br><br>
+	Address<br>
+	<textarea  id="Addr" name="Addr" rows="10" cols="50" style="width:90%;padding: 13px 21px;box-sizing: border-box;border: 2.2px solid green;border-radius: 5px; " placeholder="Enter your address" required></textarea><br><br>
+	<h2>Account Information</h2>
+	<hr id="test2"/>
+	Email Address<br>
+	<input type="email" id="emailAd" name="emailAd" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" pattern="[a-zA-Z0-9_*+-$%^&!]+@[a-zA-Z0-9]\.[a-z]{2,3}" placeholder="Enter your email" required><br><br>
+	Password<br>
+	<input type="password" id="pwd" name="pwd" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" placeholder="Enter a password" pattern="[a-zA-Z0-9_*!£$%&]{6,8}" required><br><br>
+	Re-enter your password<br>
+	<input type="password" id="rpwd" name="rpwd" style="width:90%;padding: 13px 21px;border: 2.2px solid green;border-radius: 5px;box-sizing: border-box; margin: 10px 0;" placeholder="Re-enter your password" required><br><br>
+	
+	<center>
+	<input type="checkbox" id="ppt" name="ppt" onclick="enableButton()">
+	I Accept the new privacy policy and terms
+	<br>
+	<br>
+	<input type="submit" id="btn1" name="btn1" style="padding: 10px 30px;cursor: pointer;" value="Register Now" disabled>
+	<input type="reset" id="btn2" name="btn2" style="background-color: red;color: white;padding: 10px 30px;cursor: pointer; value="Reset">
+	</center>
+	</div>
+</form>
+</center>
+<hr id="test"/>
+<a href="#">
+<img src="Images/payment.png" align="left" width="15%" alt="payment" title="payment image" id="main" onclick="errorButton2()" >
+</a>
+<button type="button" id="sButton" class="subscribe" onclick="errorButton()"><a href="Subscribe.php">Subscribe to Newsletter</button>
+
+</body>
+
+</html>

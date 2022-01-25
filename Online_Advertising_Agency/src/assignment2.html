@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Online Advertising Agency</title>
+	<link rel="stylesheet" type="text/css" href="styles/styleN.css">
+	<script src="js/assignment2Script.js"></script>
+
+</head>
+
+<body bgcolor="#e7ebfd" >
+<img src="Images/logo.png" width="10%" align="left" alt="logo" title="Logo">
+<a href="Register.html">
+<img src="Images/profile.png" width="5%" align="right" alt="profile" title="Profile">
+</a>
+<h1 class="header ">AD Plus Online Advertising Agency</h1>
+
+<hr id="test"/>
+
+<br>
+<ul class="menu">
+	<li class="menu"><a href="Index.html">Home</a></li>
+	<li class="menu"><a href="ViewAd.html">View Ad</a></li>
+	<li class="menu"><a href="Create ad.html">Create Ad</a></li>
+	<li class="menu"><a href="#">Publish Ad</a></li>
+	<li class="menu"><a href="signin.php">Sign In</a></li>
+	<li class="menu"><a href="Register.html">Register</a></li>
+	<li class="menu"><a href="payment details.html">Payment Details</a></li>
+	<li class="menu"><a href="Contact Us.html">Contact Us</a></li>
+	<li class="menu"><a href="About us.html">About Us</a></li>
+	<div class="search">
+	 <input type="text" placeholder="Search..">
+	 </div>
+	 <div align="right">
+	 <form method="post" action="Search.php">
+	<button type="submit" name="search"  style="width:5%;text-align:center;margin: 3px;background-color: black;color: white;padding: 12px ;cursor: pointer;">Search</button>
+	</form>
+	</div>
+</ul>
+<br>
+<br>
+
+
+ <center>
+ <form action="publish.php" target="_self" method="POST" onsubmit="return checkPasswords()">
+    <fieldset>
+	  <h2><legend>Publish your Advertisment Details</legend></h2>
+     <label>Total budget</label><br>
+	 <input type="text" id="tbudget" name="tbudget" style="width:500px;" placeholder="minimum 1000 USD" required><br><br>
+	 
+	 Interests of your customers<br>
+	 <textarea id="customers" name="customers" rows="5" cols="50" style="width:500px;" required></textarea><br><br>
+	 
+	 Target location
+	<input type="text" id="location" name="location" style="width:500px;"  required> 
+	 
+	 <br><br>
+	 
+	 Releasing Date<br>
+	 <input type="date" id="rdate" name="rdate" style="width:500px;" placeholder="Releasing date" required><br><br>
+	 
+	 Email Address<br>
+	 <input type="email" id="emailAdd" name="emailAdd" style="width:500px;" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" placeholder="email address" required><br><br>
+	 
+	Preferred Running Days<br>
+	 <input type="text" id="pwd" name="pwd" style="width:500px;"   required><br><br>
+	 
+	Other<br>
+	 <input type="text" id="cpwd" name="cpwd" style="width:500px;"  required><br><br>
+	 
+	 I'm not a robot  
+	 <input type="checkbox" id="policy" name="policy" required><br><br>
+	 
+ 
+	 <input type="submit" id="btn1" name="btn1" value="Publish" required>
+	 
+	  <input type="reset" id="btn2" name="btn2" value="Close" required>
+	 
+	 
+    </fieldset>
+ </form>
+ </center>
+ 
+<img src="Images/payment.png" align="left" width="15%" alt="payment" title="payment image" >
+<button type="button" class="subscribe"><a href="Subscribe.php">Subscribe to Newsletter</button>   	 
+</body>
+
+</html>

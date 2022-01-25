@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create ad</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" >
+    <script type="text/javascript" src=".//js/script.js"></script>
+    </head>
+<body bgcolor="#e7ebfd">
+    <img src="Images/logo.png" width="10%" align="left" alt="logo" title="Logo">
+<a href="Register.html">
+<img src="Images/profile.png" width="5%" align="right" alt="profile" title="Profile">
+</a>
+<h1 class="header ">AD Plus Online Advertising Agency</h1>
+
+<hr id="test"/>
+<br>
+<ul class="menu">
+	<li class="menu"><a href="Index.html">Home</a></li>
+	<li class="menu"><a href="ViewAd.html">View Ad</a></li>
+	<li class="menu"><a href="#">Create Ad</a></li>
+	<li class="menu"><a href="assignment2.html">Publish Ad</a></li>
+	<li class="menu"><a href="signin.php">Sign In</a></li>
+	 <li class="menu"><a href="Register.html">Register</a></li>
+	 <li class="menu"><a href="payment details.html">Payment Details</a></li>
+	<li class="menu"><a href="Contact Us.html">Contact Us</a></li>
+	<li class="menu"><a href="About us.html">About Us</a></li>
+	<div class="search">
+	 <input type="text" placeholder="Search..">
+	 </div>
+	 <div align="right">
+	 <form method="post" action="Search.php">
+	<button type="submit" name="search"  style="width:5%;text-align:center;margin: 3px;background-color: black;color: white;padding: 12px ;cursor: pointer;">Search</button>
+	</form>
+	</div>
+</ul>
+    
+    
+<div class="bgimg">
+    
+   
+          <h1 class="create"> Create Your Advertisement Here</h1> 
+    
+    
+        
+    
+        <form method ="POST" action="createAd.php" target="_self" >
+        <table class="">
+        
+        <tr> <th ><h2> Add user Details</h2><th> </tr>
+        <tr>
+            <td><label>Name</label></td>
+            <td><input type="text" id= "uname" name="uname" required ></td>
+        </tr>
+        <tr>
+            <td><label>Addresss</label></td>
+            <td><input type="text" id= "uaddress" name="uaddress" required></td>
+        </tr>
+        <tr>
+            <td><label>Contact Number</label></td>
+            <td><input type="text" id= "unumber" name="unumber" required pattern="[0-9]{10}" required></td>
+        </tr>
+        <tr>
+            <td><label>E-mail</label></td>
+            <td><input type="text" id= "uemail" name="uemail" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" required></td>
+        </tr>
+        <tr>
+            <td><label>Identity Number</label></td>
+            <td><input type="text" id= "uid" name="uid" required pattern="[0-9]{9}">V</td>
+        </tr>
+        
+        
+        </table>
+    
+            
+    
+    
+        <b>
+        <div class="desAd">
+        
+        <table >
+            <th><h2 >Describe Your Advertisement Here</h2></th>
+        <tr>
+            <td><label>Advertisement Type</label></td>
+            <td><input type="text" id="adType" name="adType" required></td>
+        </tr>
+        <tr>
+            <td><label>Target Audience</label></td>
+            <td><input type="text" id="adAudience" name="adAudience" required></td>
+        </tr>
+        <tr>
+            <td><label>Advertisement Run Date</label></td>
+        </tr>
+        <tr>
+        <table><tr>
+            <td>Ad run time <input type="text" id="adDays" name="adDays" required pattern="[0-9]{1-4}">Days</td>
+            </tr></table>
+        <tr>
+            <td><label>Total Ad Budget</label></td>
+            <td>Rs.<input type="text" id="adBudget" name="adBudget" required pattern="[0-9]{1-4}">.00</td>
+        </tr>
+        
+        <div class="adDes">
+                <label>Advertisement Description</label></div>
+            <div class="txtbox">
+                <textarea id="adTxt" name="adTxt" cols="40" rows="5"></textarea></div><br>
+            
+    </table><br>
+            </div>
+            </b>
+
+           <br><br> 
+        
+    <div class="buttonPos"><input type="submit" id="next" class="btn" name="next" value="Next Page">
+        <input type="reset" id="reset" name="reset" value="Reset" class="btn"></div><br><br><br><br>
+            
+    </div>
+    <hr id="test"/>
+<img src="Images/payment.png" align="left" width="15%" alt="payment" title="payment image" >
+<button type="button" class="subscribe"><a href="Subscribe.php">Subscribe to Newsletter</button>
+	 
+
+    
+ 
+    </body>
+</html>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        

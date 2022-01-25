@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>payment details</title>
+   <link rel="stylesheet" href="styles/styleD.css">
+   <script src="js/my script.js"></script>
+   
+</head>
+    
+<body bgcolor= "#e7ebfd">
+    
+    <img src="images/logo.png" width="10%"align="left" alt="logo" title="Logo">
+	<a href="Register.html">
+<img src="Images/profile.png" width="5%" align="right" alt="profile" title="Profile">
+</a>
+<h1 class="header">AD Plus Online Advertising Agency</h1>
+<hr id="test"/>
+<br>
+<ul class="menu">
+
+    <li class="menu"> <a href="Index.html">Home</a></li>
+    <li class="menu"> <a href="ViewAd.html">View Ad</a></li>
+    <li class="menu"><a href="Create ad.html">Create Ad</a></li>
+	<li class="menu"><a href="assignment2.html">Publish Ad</a></li>
+	<li class="menu"><a href="signin.php">Sign In</a></li>
+	<li class="menu"><a href="Register.html">Register</a></li>
+	<li class="menu"><a href="#">Payment Details</a></li>
+	<li class="menu"><a href="Contact Us.html">Contact Us</a></li>
+	<li class="menu"><a href="About us.html">About Us</a></li>
+	<div class="search">
+	<input type="text" placeholder="search..">
+	</div>
+	<div align="right">
+	 <form method="post" action="Search.php">
+	<button type="submit" name="search"  style="width:5%;text-align:center;margin: 3px;background-color: black;color: white;padding: 12px ;cursor: pointer;">Search</button>
+	</form>
+	</div>
+</ul>
+<br>
+<br>
+<center><h2><b><u>Payment Details</b></u></h2></center>
+<center>
+<form action="submit payment.php"  method="post" >
+     <label>Card Holder's Name</lable><br>
+     <input type="text" id="card holder's name" name="hname" style="width:350px;" placeholder="Enter the card holder's name" required><br><br>
+     <label>Credit Card Number</lable><br>
+     <input type="text" id="credit card number" name="num" style="width:350px;" pattern="[0-9]{16}" placeholder="Enter the card valied card number" required><br><br>
+     <b>Expiry</b><br><br>
+     <label>Month/Year</lable><br>
+     <input type="text" id="month/year" name="date" style="width:250px;" placeholder="M/Y" required><br><br>
+     <label>CVC</lable><br>
+     <input type="text" id="cvc" name="cvc" style="width:250px;" pattern="[0-9]{3}" placeholder="325" required><br><br>
+     <label>Accept Privacy Policy Terms</lable><br>
+     <input type="checkbox" id="policy" name="policy" required onclick="enableButton()"><br><br>
+     <input type="submit" id="btn1" name="btn1" value="Pay" disabled>
+	 <input type="reset" id="btn2" name="btn2" value="Cancel">
+</center>	 
+</form>
+<hr id="test"/>
+<img src="images/payment.png" align="left" width="15%" alt="payment" title="payment image">
+ 
+ <button type="button" class="subcribe">
+ <a href="Subscribe.php">Subscribe to Newsletter</button>
+	  
+</body>
+</html>
