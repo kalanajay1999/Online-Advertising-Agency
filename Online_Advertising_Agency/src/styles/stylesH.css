@@ -1,0 +1,194 @@
+.header{
+	text-align: center;
+	padding: 14px 16px;
+	text-shadow: 2px 2px 4px ;
+	
+}
+
+#test{
+	border: 2px solid purple;
+}
+
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	overflow:hidden;
+}
+
+.search input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 4.8px;
+  margin-right: 4px;
+  font-size: 17px;
+}
+
+li.menu{
+	float:left;
+	}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:blue;
+}
+
+.productData{
+	background-color:white;
+	padding:5px;
+	}
+
+#back5g1{
+  padding: 25px;
+  background: url("../images/plain-color-wallpaper-background-12.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 500px;
+  background-position:center;
+}
+
+.img-circle{
+	 border-radius: 50%;
+}
+
+.h1{
+    color:white;
+	}
+
+div.mainpa{
+	border: 1px solid black;
+    background-color: black;
+    padding:10px;
+  }
+	
+
+div.ex1{
+  border: 1px solid black;
+  background-color: white;
+  padding:10px;
+  }
+
+div.ex2{
+  border: 1px solid black;
+  background-color: white;
+  padding:10px;
+}
+
+div.ex3{
+  border: 1px solid black;
+  background-color: white;
+  padding:10px;
+}
+
+div.ex4{
+  border: 1px solid black;
+  background-color: white;
+  padding:10px;
+}
+
+	
+.s1{
+	color:black;
+	font-size:20px;
+	}
+
+.s2{
+	color:black;
+	font-size:20px;
+	}
+
+.s3{
+	color:black;
+	font-size:20px;
+	}
+
+.s4{
+	color:black;
+	font-size:20px;
+	}
+
+
+.infor{
+	
+	padding:14px 16px;
+}
+
+.float-button1{
+	 border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:purple;
+ 
+}
+.float-button2{
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:purple;
+  }
+
+.float-button1:hover{
+	background-color:black;
+}
+
+.float-button2:hover{
+	background-color:black;
+	}
+
+
+.h111{
+    color:black;
+}
+
+#sub{
+	width:1000px;
+	height:50px;
+	background-color:purple;
+	border:none;
+	font-size:16px;
+	font-weight:900;
+}
+
+.para3{
+	
+	font-size:16px;
+	font-weight:900;
+	}
+
+.para4{
+	
+	font-size:16px;
+	font-weight:900;
+	
+}
+
+
+.subscribe {
+  display: block;
+  width: 150px;
+  padding: 5px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  float:right;
+}
+

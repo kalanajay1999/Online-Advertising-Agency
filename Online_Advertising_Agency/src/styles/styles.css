@@ -1,0 +1,165 @@
+.header{
+	text-align: center;
+	padding: 14px 16px;
+	text-shadow: 2px 2px 4px ;
+	
+}
+
+
+#test{
+	border: 2px solid Purple;
+}
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	overflow:hidden;
+}
+.search input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 4.8px;
+  margin-right: 4px;
+  font-size: 17px;
+}
+
+
+li.menu{
+	float:left;
+	
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:pink;
+}
+
+.productData{
+	background-color:white;
+	padding:5px;
+}
+
+#tbl{
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+.subscribe {
+  display: block;
+  width: 150px;
+  padding: 5px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  float:right;
+}
+
+.tb1{
+        border-collapse: collapse;
+        border: 1px solid black;
+}
+
+.create{
+    font-family: "Comic Sans MS";
+    background-color: white;
+    text-align: center;
+}
+
+.text1{
+    position:absolute;
+    margin-top: 6px;
+    text-align: center;
+}
+.adDes{
+    
+    margin-right: 10px;
+    
+}
+.adTxt{
+     margin-right: 10px;
+    
+}
+
+.aboutUs{
+    margin: auto;
+    border: 5px outset grey;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+    display: block;
+  text-align: center;
+}
+.aboutHead{
+ text-align: center;  
+}
+
+.abuoutuUs{
+    position: relative;
+}
+
+.man1{
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+    
+}
+.man3{
+    position: absolute;
+    bottom: 10.5px;
+    left: 250px;
+    
+}
+.policy{
+   position: absolute;
+    right:45%;
+}
+#plcy{
+    text-align: justify;
+    background-color: white;
+}
+
+.btn {
+  background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.desAd{
+    background-image: url("../images/bg1.jpg");
+    margin: auto;
+    border: 5px outset grey;
+    padding: 10px;
+    width: 500px;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.buttonPos{
+    position: absolute;
+    right:41%;
+    
+}
+
+.bgimg{
+   background-image: url("../images/aboutus.jpg");  
+    background-size: cover;
+    
+}
+
